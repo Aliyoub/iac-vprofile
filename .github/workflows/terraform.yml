@@ -53,7 +53,7 @@ jobs:
         run: terrafora validate
       - name: Terraform plan 
         id: plan 
-        run: terrafora plan -no-color -input=false -out planfile
+        run: terraforam plan -no-color -input=false -out planfile
         continue-on-error: true
 
       - name: Terraform plan status
